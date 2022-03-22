@@ -1,10 +1,14 @@
 {
   "supportedChains":["BSC","HECO","OEC","POLYGON","AVAX"],
-  "merchandiseSupportedChains": ["BSC"],
   "environments": {
     "test": {
       "chains": {
         "BSC": {
+          "featureSupport": { 
+            "shield": true,
+            "merch": true,
+            "land": true
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"97",
           "VUE_APP_EXPECTED_NETWORK_ID":"97",
@@ -57,6 +61,11 @@
           "fightGas": "0.0007"
         },
         "HECO": {
+          "featureSupport": { 
+            "shield": true,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"256",
           "VUE_APP_EXPECTED_NETWORK_ID":"256",
@@ -100,6 +109,11 @@
           "fightGas": "0.0006"
         },
         "OEC": {
+          "featureSupport": { 
+            "shield": true,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"65",
           "VUE_APP_EXPECTED_NETWORK_ID":"65",
@@ -143,6 +157,11 @@
           "fightGas": "0.00009"
         },
         "POLYGON": {
+          "featureSupport": { 
+            "shield": true,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"80001",
           "VUE_APP_EXPECTED_NETWORK_ID":"80001",
@@ -186,6 +205,11 @@
           "fightGas": "0.0095"
         },
         "AVAX": {
+          "featureSupport": { 
+            "shield": false,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"43113",
           "VUE_APP_EXPECTED_NETWORK_ID":"43113",
@@ -229,6 +253,11 @@
           "fightGas": "0.006"
         },
         "AURORA": {
+          "featureSupport": { 
+            "shield": false,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"1313161555",
           "VUE_APP_EXPECTED_NETWORK_ID":"1313161555",
@@ -276,6 +305,11 @@
     "production": {
       "chains": {
         "BSC": {
+          "featureSupport": { 
+            "shield": true,
+            "merch": true,
+            "land": true
+          },
           "VUE_APP_NETWORK_ID":"56",
           "VUE_APP_EXPECTED_NETWORK_ID":"56",
           "VUE_APP_EXPECTED_NETWORK_NAME":"Binance Smart Chain Mainnet",
@@ -330,6 +364,11 @@
           "fightGas": "0.0007"
         },
         "HECO": {
+          "featureSupport": { 
+            "shield": true,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_NETWORK_ID":"128",
           "VUE_APP_EXPECTED_NETWORK_ID":"128",
           "VUE_APP_EXPECTED_NETWORK_NAME":"Huobi ECO Chain Mainnet",
@@ -373,6 +412,11 @@
           "fightGas": "0.0006"
         },
         "OEC": {
+          "featureSupport": { 
+            "shield": true,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_NETWORK_ID":"66",
           "VUE_APP_EXPECTED_NETWORK_ID":"66",
           "VUE_APP_EXPECTED_NETWORK_NAME":"OKExChain Mainnet",
@@ -416,6 +460,11 @@
           "fightGas": "0.00009"
         },
         "POLYGON": {
+          "featureSupport": { 
+            "shield": true,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"137",
           "VUE_APP_EXPECTED_NETWORK_ID":"137",
@@ -459,6 +508,11 @@
           "fightGas": "0.0095"
         },
         "AVAX": {
+          "featureSupport": { 
+            "shield": false,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"43114",
           "VUE_APP_EXPECTED_NETWORK_ID":"43114",
@@ -502,6 +556,11 @@
           "fightGas": "0.006"
         },
         "AURORA": {
+          "featureSupport": { 
+            "shield": false,
+            "merch": false,
+            "land": false
+          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"1313161554",
           "VUE_APP_EXPECTED_NETWORK_ID":"1313161554",
