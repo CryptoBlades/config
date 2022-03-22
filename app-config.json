@@ -1,5 +1,7 @@
 {
   "supportedChains":["BSC","HECO","OEC","POLYGON","AVAX"],
+  "shieldSupportedChains": ["BSC","HECO","OEC","POLYGON"],
+  "landSupportedChains":["BSC"],
   "merchandiseSupportedChains": ["BSC"],
   "environments": {
     "test": {
