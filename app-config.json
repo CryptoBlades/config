@@ -1,14 +1,10 @@
 {
   "supportedChains":["BSC","HECO","OEC","POLYGON","AVAX"],
+  "merchandiseSupportedChains": ["BSC"],
   "environments": {
     "test": {
       "chains": {
         "BSC": {
-          "featureSupport": { 
-            "shield": true,
-            "merch": true,
-            "land": true
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"97",
           "VUE_APP_EXPECTED_NETWORK_ID":"97",
@@ -61,11 +57,6 @@
           "fightGas": "0.0007"
         },
         "HECO": {
-          "featureSupport": { 
-            "shield": true,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"256",
           "VUE_APP_EXPECTED_NETWORK_ID":"256",
@@ -109,11 +100,6 @@
           "fightGas": "0.0006"
         },
         "OEC": {
-          "featureSupport": { 
-            "shield": true,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"65",
           "VUE_APP_EXPECTED_NETWORK_ID":"65",
@@ -157,11 +143,6 @@
           "fightGas": "0.00009"
         },
         "POLYGON": {
-          "featureSupport": { 
-            "shield": true,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"80001",
           "VUE_APP_EXPECTED_NETWORK_ID":"80001",
@@ -201,15 +182,10 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://matic-mumbai.chainstacklabs.com"],
           "blockExplorerUrls": ["https://mumbai.polygonscan.com/"],
-          "exchangeUrl": "https://app.apeswap.finance/swap?outputCurrency=0xb7F7f993C39700d56A0e643EfB389F5356c0CE9e",
+          "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0xb7F7f993C39700d56A0e643EfB389F5356c0CE9e",
           "fightGas": "0.0095"
         },
         "AVAX": {
-          "featureSupport": { 
-            "shield": false,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"43113",
           "VUE_APP_EXPECTED_NETWORK_ID":"43113",
@@ -253,11 +229,6 @@
           "fightGas": "0.006"
         },
         "AURORA": {
-          "featureSupport": { 
-            "shield": false,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"1313161555",
           "VUE_APP_EXPECTED_NETWORK_ID":"1313161555",
@@ -305,11 +276,6 @@
     "production": {
       "chains": {
         "BSC": {
-          "featureSupport": { 
-            "shield": true,
-            "merch": true,
-            "land": true
-          },
           "VUE_APP_NETWORK_ID":"56",
           "VUE_APP_EXPECTED_NETWORK_ID":"56",
           "VUE_APP_EXPECTED_NETWORK_NAME":"Binance Smart Chain Mainnet",
@@ -345,7 +311,7 @@
           "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0x812Fa2f7d89e5d837450702bd51120920dccaA99",
           "VUE_APP_PVP_CONTRACT_ADDRESS": "0x8ADB6c9f7FAdB959a9847fd9Bd0ED503446942Ca",
           "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0xbE555D81117EEe690ACBaC54aF735AC32d763Fd2",
-          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0x63BC4e6934a1C3fd024a6ee7BCD78349a76e2DDf",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "",
 
           "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x168470C8A5a244aEE5a01B8D812F2069dB2038aE",
           "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0xD6CDf4072EB6bcF10ef1b715aaA0fDF755B52327",
@@ -364,11 +330,6 @@
           "fightGas": "0.0007"
         },
         "HECO": {
-          "featureSupport": { 
-            "shield": true,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_NETWORK_ID":"128",
           "VUE_APP_EXPECTED_NETWORK_ID":"128",
           "VUE_APP_EXPECTED_NETWORK_NAME":"Huobi ECO Chain Mainnet",
@@ -393,7 +354,7 @@
           "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0x7843Bd2aDdE5E54bD6e61C28fA89009240a48C08",
           "VUE_APP_PVP_CONTRACT_ADDRESS": "0x0cA50Cc9481FB3c5C0E8a02fAca97B25b0C73D5C",
           "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0xBEd1393557bF120733E01070Fc40CC1cB3a8Db64",
-          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0x7B838bC33e3C04df32d00d23E8aF05E73B05eC4e",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "",
 
           "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0xBf8Ca84d0F5d9f154c0fD91ef671805a74964910",
           "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0xd3813bb74A8AB232e5CF61319b7b686CFd8788DA",
@@ -412,11 +373,6 @@
           "fightGas": "0.0006"
         },
         "OEC": {
-          "featureSupport": { 
-            "shield": true,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_NETWORK_ID":"66",
           "VUE_APP_EXPECTED_NETWORK_ID":"66",
           "VUE_APP_EXPECTED_NETWORK_NAME":"OKExChain Mainnet",
@@ -441,7 +397,7 @@
           "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0xcBEfF02841370997054AdfF624dC490C8cB20406",
           "VUE_APP_PVP_CONTRACT_ADDRESS": "0x306d0D035b802a13cBfa389faFfb488ca1bbA874",
           "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0x81Cf70E8D62Ec8903FA0364aB2147349AC1F2125",
-          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0x18b9989de9740aF85a0ead6177f09129ed67c42c",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "",
 
           "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x3b20013A190aE6781c013B2506F8a164e7A8816b",
           "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0x47a3c3e3925624beBf5193717d80EF494Bc9B8A7",
@@ -460,11 +416,6 @@
           "fightGas": "0.00009"
         },
         "POLYGON": {
-          "featureSupport": { 
-            "shield": true,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"137",
           "VUE_APP_EXPECTED_NETWORK_ID":"137",
@@ -487,9 +438,9 @@
           "VUE_APP_WAX_BRIDGE_CONTRACT_ADDRESS":"0xCb850EEd27fF37B591c88967b5E7bC63De121FBd",
           "VUE_APP_STORAGE_CONTRACT_ADDRESS":"0x5846b663523649Ed02CA9cC57bBAE7FAe2a3cDcA",
           "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0x216AC39765D920D7f86162Daf9BE1f045f321A8D",
-          "VUE_APP_PVP_CONTRACT_ADDRESS": "",
+          "VUE_APP_PVP_CONTRACT_ADDRESS": "0x1229Aad0b813fb5636834Eb82a7732A3f90a0149",
           "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0x84f3B66509809644446F66812247e73869358Be8",
-          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0xe6D98Dc214bB7f0501912DFBe30B1118992F03Ef",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "",
 
           "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0xe96cEC34B5DB980A024a79561F6320e877E2143D",
           "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0xc97011880a37139BD5eEEAE7A2cf683a82D615e0",
@@ -504,15 +455,10 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://matic-mainnet.chainstacklabs.com"],
           "blockExplorerUrls": ["https://polygonscan.com/"],
-          "exchangeUrl": "https://app.apeswap.finance/swap?outputCurrency=0x863D6074aFaF02D9D41A5f8Ea83278DF7089aA86",
+          "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0x863D6074aFaF02D9D41A5f8Ea83278DF7089aA86",
           "fightGas": "0.0095"
         },
         "AVAX": {
-          "featureSupport": { 
-            "shield": false,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"43114",
           "VUE_APP_EXPECTED_NETWORK_ID":"43114",
@@ -540,7 +486,7 @@
           "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "",
 
           "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x71A57Fa35bdc38695a685af5652dfAA80466E55B",
-          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "",
+          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0x443424799fDF95e20aAB84d348d53A585fD2f442",
 
           "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "0x0FB54156B496b5a040b51A71817aED9e2927912E",
 
@@ -552,15 +498,10 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://api.avax.network/ext/bc/C/rpc"],
           "blockExplorerUrls": ["https://snowtrace.io/"],
-          "exchangeUrl": "https://app.pangolin.exchange/#/swap?inputCurrency=0x483416eb3afa601b9c6385f63cec0c82b6abf1fb&outputCurrency=0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "exchangeUrl": "https://app.pangolin.exchange/#/swap?outputCurrency=0x483416eb3afa601b9c6385f63cec0c82b6abf1fb",
           "fightGas": "0.006"
         },
         "AURORA": {
-          "featureSupport": { 
-            "shield": false,
-            "merch": false,
-            "land": false
-          },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"1313161554",
           "VUE_APP_EXPECTED_NETWORK_ID":"1313161554",
@@ -585,7 +526,7 @@
           "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0x483416eB3aFA601B9C6385f63CeC0C82B6aBf1fb",
           "VUE_APP_PVP_CONTRACT_ADDRESS": "",
           "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0x213d4a30E99978615E120a0fE60cB334a4043805",
-          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0xDAFbCeDe3970E6e1A139152DBd9651a387357C7f",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "",
 
           "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x93487d7902C560d6ae3e4191D9E6269bCdfD307a",
           "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0x89995f8C61d7366119773Ac791e9B427e1B63a4A",
