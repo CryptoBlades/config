@@ -361,7 +361,8 @@
           "rpcUrls": ["https://bsc-dataseed.binance.org/"],
           "blockExplorerUrls": ["https://bscscan.com/"],
           "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab",
-          "fightGas": "0.0007"
+          "fightGas": "0.0007",
+          "gasPrice": ""
         },
         "HECO": {
           "featureSupport": { 
@@ -409,7 +410,8 @@
           "rpcUrls": ["https://http-mainnet.hecochain.com"],
           "blockExplorerUrls": ["https://hecoinfo.com"],
           "exchangeUrl": "https://swap.butterswap.me/#/swap?outputCurrency=0x27d4DfDB3fDf58e198bA4dbc23B2F82c0b8e3405",
-          "fightGas": "0.0006"
+          "fightGas": "0.0006",
+          "gasPrice": "2.25"
         },
         "OEC": {
           "featureSupport": { 
@@ -457,7 +459,8 @@
           "rpcUrls": ["https://exchainrpc.okex.org"],
           "blockExplorerUrls": ["https://www.oklink.com/okexchain/"],
           "exchangeUrl": "https://app.jswap.finance/#/swap?outputCurrency=0xcC137b0713E0DC63b1fA136272014F2A54Dd7aCB",
-          "fightGas": "0.00009"
+          "fightGas": "0.00009",
+          "gasPrice": "0.1"
         },
         "POLYGON": {
           "featureSupport": { 
@@ -505,7 +508,8 @@
           "rpcUrls": ["https://matic-mainnet.chainstacklabs.com"],
           "blockExplorerUrls": ["https://polygonscan.com/"],
           "exchangeUrl": "https://app.apeswap.finance/swap?outputCurrency=0x863D6074aFaF02D9D41A5f8Ea83278DF7089aA86",
-          "fightGas": "0.0095"
+          "fightGas": "0.0095",
+          "gasPrice": ""
         },
         "AVAX": {
           "featureSupport": { 
@@ -553,7 +557,8 @@
           "rpcUrls": ["https://api.avax.network/ext/bc/C/rpc"],
           "blockExplorerUrls": ["https://snowtrace.io/"],
           "exchangeUrl": "https://app.pangolin.exchange/#/swap?inputCurrency=0x483416eb3afa601b9c6385f63cec0c82b6abf1fb&outputCurrency=0xc7198437980c041c805a1edcba50c1ce5db95118",
-          "fightGas": "0.006"
+          "fightGas": "0.006",
+          "gasPrice": ""
         },
         "AURORA": {
           "featureSupport": { 
@@ -601,7 +606,8 @@
           "rpcUrls": ["https://mainnet.aurora.dev"],
           "blockExplorerUrls": ["https://aurorascan.dev/"],
           "exchangeUrl": "",
-          "fightGas": "0.006"
+          "fightGas": "0.006",
+          "gasPrice": ""
         }
       }
     }
