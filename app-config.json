@@ -1,5 +1,6 @@
 {
   "supportedChains":["BSC","HECO","OEC","POLYGON","AVAX"],
+  "merchandiseSupportedChains": ["BSC"],
   "environments": {
     "test": {
       "chains": {
@@ -201,7 +202,7 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://matic-mumbai.chainstacklabs.com"],
           "blockExplorerUrls": ["https://mumbai.polygonscan.com/"],
-          "exchangeUrl": "https://app.apeswap.finance/swap?outputCurrency=0xb7F7f993C39700d56A0e643EfB389F5356c0CE9e",
+          "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0xb7F7f993C39700d56A0e643EfB389F5356c0CE9e",
           "fightGas": "0.0095"
         },
         "AVAX": {
@@ -490,7 +491,7 @@
           "VUE_APP_WAX_BRIDGE_CONTRACT_ADDRESS":"0xCb850EEd27fF37B591c88967b5E7bC63De121FBd",
           "VUE_APP_STORAGE_CONTRACT_ADDRESS":"0x5846b663523649Ed02CA9cC57bBAE7FAe2a3cDcA",
           "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0x216AC39765D920D7f86162Daf9BE1f045f321A8D",
-          "VUE_APP_PVP_CONTRACT_ADDRESS": "",
+          "VUE_APP_PVP_CONTRACT_ADDRESS": "0x1229Aad0b813fb5636834Eb82a7732A3f90a0149",
           "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0x84f3B66509809644446F66812247e73869358Be8",
           "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0xe6D98Dc214bB7f0501912DFBe30B1118992F03Ef",
 
@@ -507,7 +508,7 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://matic-mainnet.chainstacklabs.com"],
           "blockExplorerUrls": ["https://polygonscan.com/"],
-          "exchangeUrl": "https://app.apeswap.finance/swap?outputCurrency=0x863D6074aFaF02D9D41A5f8Ea83278DF7089aA86",
+          "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0x863D6074aFaF02D9D41A5f8Ea83278DF7089aA86",
           "fightGas": "0.0095",
           "gasPrice": ""
         },
@@ -544,7 +545,7 @@
           "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "",
 
           "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x71A57Fa35bdc38695a685af5652dfAA80466E55B",
-          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "",
+          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0x443424799fDF95e20aAB84d348d53A585fD2f442",
 
           "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "0x0FB54156B496b5a040b51A71817aED9e2927912E",
 
@@ -556,7 +557,7 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://api.avax.network/ext/bc/C/rpc"],
           "blockExplorerUrls": ["https://snowtrace.io/"],
-          "exchangeUrl": "https://app.pangolin.exchange/#/swap?inputCurrency=0x483416eb3afa601b9c6385f63cec0c82b6abf1fb&outputCurrency=0xc7198437980c041c805a1edcba50c1ce5db95118",
+          "exchangeUrl": "https://app.pangolin.exchange/#/swap?outputCurrency=0x483416eb3afa601b9c6385f63cec0c82b6abf1fb",
           "fightGas": "0.006",
           "gasPrice": ""
         },
