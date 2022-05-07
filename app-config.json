@@ -1,9 +1,9 @@
 {
-  "supportedChains":["BSC","HECO","OEC","POLYGON","AVAX","AURORA"],
+  "supportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA"],
   "environments": {
     "test": {
       "chains": {
-        "BSC": {
+        "BNB": {
           "featureSupport": {
             "shield": true,
             "merch": true,
@@ -53,7 +53,7 @@
 
           "chainId": "0x61",
           "currencyName": "Binance Coin",
-          "currencyNetwork": "BSC",
+          "currencyNetwork": "BNB",
           "currencySymbol": "BNB",
           "currencyTransak": "BNB,BUSD",
           "currencyDecimals": "18",
@@ -316,7 +316,7 @@
     },
     "production": {
       "chains": {
-        "BSC": {
+        "BNB": {
           "featureSupport": {
             "shield": true,
             "merch": true,
@@ -366,7 +366,7 @@
 
           "chainId": "0x38",
           "currencyName": "Binance Coin",
-          "currencyNetwork": "BSC",
+          "currencyNetwork": "BNB",
           "currencySymbol": "BNB",
           "currencyTransak": "BNB,BUSD",
           "currencyDecimals": "18",
