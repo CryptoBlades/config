@@ -12,7 +12,7 @@
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"97",
           "VUE_APP_EXPECTED_NETWORK_ID":"97",
-          "VUE_APP_EXPECTED_NETWORK_NAME":"Binance Smart Chain Testnet",
+          "VUE_APP_EXPECTED_NETWORK_NAME":"BNB Chain Testnet",
 
           "VUE_APP_STAKE_TYPES_AVAILABLE":"skill,skill2,skill90,skill180,king90,king180,cbkLandT1,cbkLandT2,cbkLandT3",
           "VUE_APP_STAKE_TYPE_FOR_UNCLAIMED_REWARDS": "skill",
@@ -324,7 +324,7 @@
           },
           "VUE_APP_NETWORK_ID":"56",
           "VUE_APP_EXPECTED_NETWORK_ID":"56",
-          "VUE_APP_EXPECTED_NETWORK_NAME":"Binance Smart Chain Mainnet",
+          "VUE_APP_EXPECTED_NETWORK_NAME":"BNB Chain Mainnet",
 
           "VUE_APP_STAKE_TYPES_AVAILABLE":"skill,lp,skill2,skill90,skill180,king,king90,king180",
           "VUE_APP_NFT_STAKE_TYPES_AVAILABLE":"cbkLandT1,cbkLandT2,cbkLandT3",
