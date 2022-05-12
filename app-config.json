@@ -317,6 +317,108 @@
           "blockExplorerUrls": ["https://testnet.aurorascan.dev/"],
           "exchangeUrl": "",
           "fightGas": "0"
+        },
+        "KAVA": {
+          "featureSupport": {
+            "shield": false,
+            "merch": false,
+            "land": false
+          },
+          "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
+          "VUE_APP_NETWORK_ID":"2221",
+          "VUE_APP_EXPECTED_NETWORK_ID":"2221",
+          "VUE_APP_EXPECTED_NETWORK_NAME":"Kava TestNet",
+
+          "VUE_APP_STAKE_TYPES_AVAILABLE":"",
+          "VUE_APP_STAKE_TYPE_FOR_UNCLAIMED_REWARDS": "",
+          "VUE_APP_SKILL_TOKEN_CONTRACT_ADDRESS": "0x9f4a08Cadc7Bba6C7Eb9245EBd0b3b20785C227E",
+          "VUE_APP_SKILL2_TOKEN_CONTRACT_ADDRESS":"0x9f4a08Cadc7Bba6C7Eb9245EBd0b3b20785C227E",
+          "VUE_APP_LP_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL2_STAKING_REWARDS_CONTRACT_ADDRESS":"0x2172ea18Ed9C024FbD50cb649E851f16cF1584Bb",
+          "VUE_APP_LP_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+
+          "VUE_APP_CRYPTOBLADES_CONTRACT_ADDRESS":"0x44fD3155849A1B1714a4FeB906aEb6e34960CB40",
+          "VUE_APP_RAID_CONTRACT_ADDRESS":"0xAF7356Cf543936581f22286f7BAAC78fF8cC4344",
+          "VUE_APP_MARKET_CONTRACT_ADDRESS":"0x3AB7bdF84Aa76C21e65Bf3bB4DA232d32B9Fd7FC",
+          "VUE_APP_WAX_BRIDGE_CONTRACT_ADDRESS":"0xdE53fe8dC670D1fF23d0200BF4865090D7F38895",
+          "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0xAe8bcB7dd33e748Fa6027b90B5ce698192a0De73",
+          "VUE_APP_PVP_CONTRACT_ADDRESS": "0x33A67d253524F5893f7Fc2C69C7a132f1A0b0E1c",
+          "VUE_APP_PVP_CORE_CONTRACT_ADDRESS": "",
+          "VUE_APP_PVP_RANKINGS_CONTRACT_ADDRESS": "",
+          "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0xc2045195Bd03B5CD7BC15503fd4aa59524E23f95",
+          "VUE_APP_STORAGE_CONTRACT_ADDRESS":"0x44bdAB213a2288a5001b45b013A4d58e0921551c",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0x99dA72ABe7b6f19b9aaf19c4eCEB8c26C57Adfc6",
+          "VUE_APP_LAUNCHPAD_CONTRACT_ADDRESS": "",
+
+          "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x3CC462274e736778EE2431d67879D9cA58B555E7",
+          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0xc8102b2111D7D7A927d640384B46FA9CA1E6C946",
+
+          "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "",
+
+          "chainId": "2221",
+          "currencyName": "KAVA",
+          "currencyNetwork": "KAVA ",
+          "currencySymbol": "KAVA ",
+          "currencyTransak": "KAVA ",
+          "currencyDecimals": "18",
+          "rpcUrls": ["https://evm.evm-alpha.kava.io"],
+          "blockExplorerUrls": ["https://explorer.evm-alpha.kava.io/"],
+          "exchangeUrl": "",
+          "fightGas": "0"
+        },
+        "SKALE": {
+          "featureSupport": {
+            "shield": false,
+            "merch": false,
+            "land": false
+          },
+          "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
+          "VUE_APP_NETWORK_ID":"2433657680876851",
+          "VUE_APP_EXPECTED_NETWORK_ID":"2433657680876851",
+          "VUE_APP_EXPECTED_NETWORK_NAME":"Skale TestNet",
+
+          "VUE_APP_STAKE_TYPES_AVAILABLE":"",
+          "VUE_APP_STAKE_TYPE_FOR_UNCLAIMED_REWARDS": "",
+          "VUE_APP_SKILL_TOKEN_CONTRACT_ADDRESS": "0x351663044247B156fdA8674A8017b51Dcb76f01F",
+          "VUE_APP_SKILL2_TOKEN_CONTRACT_ADDRESS":"0x351663044247B156fdA8674A8017b51Dcb76f01F",
+          "VUE_APP_LP_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL2_STAKING_REWARDS_CONTRACT_ADDRESS":"0xFEE37DcFe36cbbbC52fA6CEAC227b4A261Ecea6C",
+          "VUE_APP_LP_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+
+          "VUE_APP_CRYPTOBLADES_CONTRACT_ADDRESS":"0xfe120E57849CE88A4ECaFae9b865F1B6839BEbe8",
+          "VUE_APP_RAID_CONTRACT_ADDRESS":"0x556fD2Ac3848d0eD32EDEf825C86892De41dcfB0",
+          "VUE_APP_MARKET_CONTRACT_ADDRESS":"0xDE9CB84de4635281D77C5d30C986C8A55886A397",
+          "VUE_APP_WAX_BRIDGE_CONTRACT_ADDRESS":"0x0c7Aad311fb97195e5505a1C7C04d049734DB42E",
+          "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0xD6d0beb0252db4594CC7E2C0eD284a991EE80f70",
+          "VUE_APP_PVP_CONTRACT_ADDRESS": "0x706E6C869Ae89d289282b738480DF474E0EE29eb",
+          "VUE_APP_PVP_CORE_CONTRACT_ADDRESS": "",
+          "VUE_APP_PVP_RANKINGS_CONTRACT_ADDRESS": "",
+          "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0xDF20429936Abbc28709D2185fbdE2C18Eb09dc65",
+          "VUE_APP_STORAGE_CONTRACT_ADDRESS":"0x129598f7000b4a113345575021bD97f06Ecfb243",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0xd7E0AB4FE6B1d83ba11F592a4DE85899278876C5",
+          "VUE_APP_LAUNCHPAD_CONTRACT_ADDRESS": "0x5D66290e57E482663Ee8907B5d14c8604610Fbb8",
+
+          "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x8A105264DF69A8Ae76922d421e58A9804677D57B",
+          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0x17e43E96D07725D9B41BfDA133F316e0c2206d88",
+
+          "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "",
+
+          "chainId": "0x8a5661592d533",
+          "currencyName": "Ether",
+          "currencyNetwork": "ETH",
+          "currencySymbol": "ETH",
+          "currencyTransak": "ETH",
+          "currencyDecimals": "18",
+          "rpcUrls": ["https://staging-v2.skalenodes.com/v1/glamorous-grumium"],
+          "blockExplorerUrls": ["https://glamorous-grumium.explorer.staging-v2.skalenodes.com"],
+          "exchangeUrl": "",
+          "fightGas": "0"
         }
       }
     },
