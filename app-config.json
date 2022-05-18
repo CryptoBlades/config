@@ -359,7 +359,7 @@
 
           "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "",
 
-          "chainId": "2221",
+          "chainId": "0x8AD",
           "currencyName": "KAVA",
           "currencyNetwork": "KAVA ",
           "currencySymbol": "KAVA ",
