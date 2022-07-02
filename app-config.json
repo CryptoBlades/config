@@ -8,7 +8,8 @@
           "featureSupport": {
             "shield": true,
             "merch": true,
-            "land": true
+            "land": true,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"97",
@@ -68,7 +69,8 @@
           "featureSupport": {
             "shield": true,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"256",
@@ -119,7 +121,8 @@
           "featureSupport": {
             "shield": true,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"65",
@@ -170,7 +173,8 @@
           "featureSupport": {
             "shield": true,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"80001",
@@ -221,7 +225,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"43113",
@@ -272,7 +277,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": true
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"1313161555",
@@ -323,7 +329,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"2221",
@@ -374,7 +381,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"2433657680876851",
@@ -429,7 +437,8 @@
           "featureSupport": {
             "shield": true,
             "merch": true,
-            "land": true
+            "land": true,
+            "disableDynamicMinting": false
           },
           "VUE_APP_NETWORK_ID":"56",
           "VUE_APP_EXPECTED_NETWORK_ID":"56",
@@ -490,7 +499,8 @@
           "featureSupport": {
             "shield": true,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_NETWORK_ID":"128",
           "VUE_APP_EXPECTED_NETWORK_ID":"128",
@@ -540,7 +550,8 @@
           "featureSupport": {
             "shield": true,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_NETWORK_ID":"66",
           "VUE_APP_EXPECTED_NETWORK_ID":"66",
@@ -590,7 +601,8 @@
           "featureSupport": {
             "shield": true,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"137",
@@ -640,7 +652,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"43114",
@@ -690,7 +703,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": true
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"1313161554",
@@ -740,7 +754,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"2222",
@@ -791,7 +806,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"1026062157",
