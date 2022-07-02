@@ -272,7 +272,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": true
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
           "VUE_APP_NETWORK_ID":"1313161555",
@@ -690,7 +691,8 @@
           "featureSupport": {
             "shield": false,
             "merch": false,
-            "land": false
+            "land": false,
+            "disableDynamicMinting": true
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
           "VUE_APP_NETWORK_ID":"1313161554",
