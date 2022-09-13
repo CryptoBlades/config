@@ -63,6 +63,7 @@
           "rpcUrls": ["https://data-seed-prebsc-1-s1.binance.org:8545/"],
           "blockExplorerUrls": ["https://testnet.bscscan.com"],
           "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab",
+          "balanceUrl": "",
           "fightGas": "0.0007"
         },
         "HECO": {
@@ -115,6 +116,7 @@
           "rpcUrls": ["https://http-testnet.hecochain.com"],
           "blockExplorerUrls": ["https://testnet.hecoinfo.com"],
           "exchangeUrl": "https://swap.butterswap.me/#/swap?inputCurrency=HT&outputCurrency=0x27d4DfDB3fDf58e198bA4dbc23B2F82c0b8e3405",
+          "balanceUrl": "",
           "fightGas": "0.0006"
         },
         "OEC": {
@@ -167,6 +169,7 @@
           "rpcUrls": ["https://exchaintestrpc.okex.org"],
           "blockExplorerUrls": ["https://www.oklink.com/okexchain-test/"],
           "exchangeUrl": "https://app.jswap.finance/#/swap?outputCurrency=0xcC137b0713E0DC63b1fA136272014F2A54Dd7aCB",
+          "balanceUrl": "",
           "fightGas": "0.00009"
         },
         "POLYGON": {
@@ -219,6 +222,7 @@
           "rpcUrls": ["https://matic-mumbai.chainstacklabs.com"],
           "blockExplorerUrls": ["https://mumbai.polygonscan.com/"],
           "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0xb7F7f993C39700d56A0e643EfB389F5356c0CE9e",
+          "balanceUrl": "",
           "fightGas": "0.0095"
         },
         "AVAX": {
@@ -271,6 +275,7 @@
           "rpcUrls": ["https://api.avax-test.network/ext/bc/C/rpc"],
           "blockExplorerUrls": ["https://testnet.snowtrace.io/"],
           "exchangeUrl": "",
+          "balanceUrl": "",
           "fightGas": "0.006"
         },
         "AURORA": {
@@ -323,6 +328,7 @@
           "rpcUrls": ["https://testnet.aurora.dev"],
           "blockExplorerUrls": ["https://testnet.aurorascan.dev/"],
           "exchangeUrl": "",
+          "balanceUrl": "",
           "fightGas": "0"
         },
         "KAVA": {
@@ -375,6 +381,7 @@
           "rpcUrls": ["https://evm.evm-alpha.kava.io"],
           "blockExplorerUrls": ["https://explorer.evm-alpha.kava.io/"],
           "exchangeUrl": "",
+          "balanceUrl": "",
           "fightGas": "0"
         },
         "SKALE": {
@@ -427,6 +434,7 @@
           "rpcUrls": ["https://staging-v2.skalenodes.com/v1/glamorous-grumium"],
           "blockExplorerUrls": ["https://glamorous-grumium.explorer.staging-v2.skalenodes.com"],
           "exchangeUrl": "",
+          "balanceUrl": "",
           "fightGas": "0"
         }
       }
@@ -492,6 +500,7 @@
           "rpcUrls": ["https://bsc-dataseed.binance.org/"],
           "blockExplorerUrls": ["https://bscscan.com/"],
           "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab",
+          "balanceUrl": "",
           "fightGas": "0.0007",
           "gasPrice": ""
         },
@@ -543,6 +552,7 @@
           "rpcUrls": ["https://http-mainnet.hecochain.com"],
           "blockExplorerUrls": ["https://hecoinfo.com"],
           "exchangeUrl": "https://swap.butterswap.me/#/swap?outputCurrency=0x27d4DfDB3fDf58e198bA4dbc23B2F82c0b8e3405",
+          "balanceUrl": "",
           "fightGas": "0.0006",
           "gasPrice": "2.25"
         },
@@ -594,6 +604,7 @@
           "rpcUrls": ["https://exchainrpc.okex.org"],
           "blockExplorerUrls": ["https://www.oklink.com/okexchain/"],
           "exchangeUrl": "https://app.jswap.finance/#/swap?outputCurrency=0xcC137b0713E0DC63b1fA136272014F2A54Dd7aCB",
+          "balanceUrl": "",
           "fightGas": "0.00009",
           "gasPrice": "0.1"
         },
@@ -645,6 +656,7 @@
           "rpcUrls": ["https://matic-mainnet.chainstacklabs.com"],
           "blockExplorerUrls": ["https://polygonscan.com/"],
           "exchangeUrl": "https://apeswap.finance/swap?outputCurrency=0x863D6074aFaF02D9D41A5f8Ea83278DF7089aA86",
+          "balanceUrl": "",
           "fightGas": "0.0095",
           "gasPrice": ""
         },
@@ -696,6 +708,7 @@
           "rpcUrls": ["https://api.avax.network/ext/bc/C/rpc"],
           "blockExplorerUrls": ["https://snowtrace.io/"],
           "exchangeUrl": "https://app.pangolin.exchange/#/swap?outputCurrency=0x483416eb3afa601b9c6385f63cec0c82b6abf1fb",
+          "balanceUrl": "",
           "fightGas": "0.006",
           "gasPrice": ""
         },
@@ -747,6 +760,7 @@
           "rpcUrls": ["https://mainnet.aurora.dev"],
           "blockExplorerUrls": ["https://aurorascan.dev/"],
           "exchangeUrl": "",
+          "balanceUrl": "",
           "fightGas": "0.006",
           "gasPrice": ""
         },
@@ -800,6 +814,7 @@
           "rpcUrls": ["https://evm2.kava.io"],
           "blockExplorerUrls": ["https://explorer.kava.io/"],
           "exchangeUrl": "",
+          "balanceUrl": "",
           "fightGas": "0.0003"
         },
         "SKALE": {
@@ -852,6 +867,7 @@
           "rpcUrls": ["https://mainnet.skalenodes.com/v1/affectionate-immediate-pollux"],
           "blockExplorerUrls": ["https://affectionate-immediate-pollux.explorer.mainnet.skalenodes.com/"],
           "exchangeUrl": "",
+          "balanceUrl": "https://sfuel.mylilius.com/",
           "fightGas": "0.0001"
         }
       }
