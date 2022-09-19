@@ -819,7 +819,7 @@
         },
         "SKALE": {
           "featureSupport": {
-            "shield": false,
+            "shield": true,
             "merch": false,
             "land": false,
             "disableDynamicMinting": false
