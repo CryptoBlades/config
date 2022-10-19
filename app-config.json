@@ -1,5 +1,5 @@
 {
-  "supportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","SKALE"],
+  "supportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","SKALE","COINEX"],
   "testSupportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","KAVA","SKALE"],
   "environments": {
     "test": {
@@ -929,6 +929,57 @@
           "exchangeUrl": "",
           "balanceUrl": "https://sfuel.mylilius.com/",
           "fightGas": "0.0001"
+        },
+        "COINEX": {
+          "featureSupport": {
+            "shield": true,
+            "merch": false,
+            "land": false,
+            "disableDynamicMinting": false
+          },
+          "VUE_APP_NETWORK_ID":"52",
+          "VUE_APP_EXPECTED_NETWORK_ID":"52",
+          "VUE_APP_EXPECTED_NETWORK_NAME":"CoinEx Smart Chain Mainnet",
+
+          "VUE_APP_STAKE_TYPES_AVAILABLE":"",
+          "VUE_APP_STAKE_TYPE_FOR_UNCLAIMED_REWARDS":"",
+          "VUE_APP_SKILL_TOKEN_CONTRACT_ADDRESS":"0xC28a73FCb6248Cb1718A50a9EC9cBC361dee3ea1",
+          "VUE_APP_SKILL2_TOKEN_CONTRACT_ADDRESS":"0xC28a73FCb6248Cb1718A50a9EC9cBC361dee3ea1",
+          "VUE_APP_LP_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL_STAKING_REWARDS_CONTRACT_ADDRESS":"0x45e873b4cFfd843eDDa61a6140a57D05b11b71F4",
+          "VUE_APP_SKILL2_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+
+          "VUE_APP_CRYPTOBLADES_CONTRACT_ADDRESS":"0x912252d3f7DaD807d122F7DBAd3D8245fc364C3d",
+          "VUE_APP_RAID_CONTRACT_ADDRESS":"0xbbCA928DddEDE7615f45823Cf30c7F05063ef1Cb",
+          "VUE_APP_MARKET_CONTRACT_ADDRESS":"0x90A20d4059a6Fd1C43B296b8D5F3752d0F9a98DD",
+          "VUE_APP_WAX_BRIDGE_CONTRACT_ADDRESS":"0x0BDFab25402179cceeFcabD2749B59DDED778872",
+          "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS":"snoui.wam",
+          "VUE_APP_STORAGE_CONTRACT_ADDRESS":"0xBc4cB5E95c12FD4D7065632dbfFdf3004dE11aF1",
+          "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0xC938a77fe5B6E4291464A80C7DB74cc4dC3909c9",
+          "VUE_APP_PVP_CONTRACT_ADDRESS": "0xE257975E4ea9cbD6a53076861686A34Cb53Be406",
+          "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0xeC9318b721F15Beb14f45e5EdCbD0d1Ee249A545",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0xf82879Ec584c19DC46df419590B703889126aaA9",
+          "VUE_APP_LAUNCHPAD_CONTRACT_ADDRESS": "0xEfb2eE5C8E38A69509EC25EA4807eCf53fbf29aa",
+
+          "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x055DA2F7C6F4aD5E9BCDA351A8D2cD1694746671",
+          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0xc8102b2111D7D7A927d640384B46FA9CA1E6C946",
+
+          "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "0xCaF3F0e962CF51ee8bb226630B0a47451d81c16D",
+
+          "chainId": "0x34",
+          "currencyName": "Coinex Token",
+          "currencyNetwork": "CSC",
+          "currencySymbol": "CET",
+          "currencyTransak": "CET",
+          "currencyDecimals": "18",
+          "rpcUrls": ["https://rpc.coinex.net"],
+          "blockExplorerUrls": ["https://www.coinex.net/"],
+          "exchangeUrl": "",
+          "balanceUrl": "",
+          "fightGas": "0.0007"
         }
       }
     }
