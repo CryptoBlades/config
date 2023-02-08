@@ -499,6 +499,59 @@
           "exchangeUrl": "",
           "balanceUrl": "",
           "fightGas": "0.0007"
+        },
+        "METER": {
+          "featureSupport": {
+            "shield": false,
+            "merch": false,
+            "land": false,
+            "disableDynamicMinting": false
+          },
+          "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
+          "VUE_APP_NETWORK_ID":"83",
+          "VUE_APP_EXPECTED_NETWORK_ID":"83",
+          "VUE_APP_EXPECTED_NETWORK_NAME":"Meter TestNet",
+
+          "VUE_APP_STAKE_TYPES_AVAILABLE":"",
+          "VUE_APP_STAKE_TYPE_FOR_UNCLAIMED_REWARDS": "",
+          "VUE_APP_SKILL_TOKEN_CONTRACT_ADDRESS": "0xf0ae4C1B4CD7e4A6A4F4619A4DEe90F602941cCa",
+          "VUE_APP_SKILL2_TOKEN_CONTRACT_ADDRESS":"0xf0ae4C1B4CD7e4A6A4F4619A4DEe90F602941cCa",
+          "VUE_APP_LP_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL2_STAKING_REWARDS_CONTRACT_ADDRESS":"0x6A209b83dfdfEBB6B0F88fb1284869017A62A650",
+          "VUE_APP_LP_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+
+          "VUE_APP_CRYPTOBLADES_CONTRACT_ADDRESS":"0x7C88a0E41AaF6e7A9Ad912e99f19FF3941D74c41",
+          "VUE_APP_RAID_CONTRACT_ADDRESS":"0x5E69bC1F2Ee75FB2E7C497da5874EA3835671878",
+          "VUE_APP_MARKET_CONTRACT_ADDRESS":"0x6cd74acc65753Fb7bbF8FF3f7F55b504B345Fbd2",
+          "VUE_APP_WAX_BRIDGE_CONTRACT_ADDRESS":"0x3C9B8C8b16535331Dab0b4cf29D27685e5f06C93",
+          "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0x640A90631e9149076Bc37fbB2c4dBCa4ff29Fe41",
+          "VUE_APP_PVP_CONTRACT_ADDRESS": "0xb16DB286290fA3FCD009409d8A67dA2bFB01b0f9",
+          "VUE_APP_PVP_CORE_CONTRACT_ADDRESS": "",
+          "VUE_APP_PVP_RANKINGS_CONTRACT_ADDRESS": "",
+          "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0xc8b73876867ddD9Ab61830DA98AdC2f85cA37828",
+          "VUE_APP_STORAGE_CONTRACT_ADDRESS":"0x77Cce323cAE94F3E1aBca6ED66c9bdE54702dC73",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0x054Ca2CD85Da93326dC0355717889F9c3CaE9151",
+          "VUE_APP_LAUNCHPAD_CONTRACT_ADDRESS": "0x515314b17Cc677E1D4956d455963705de2F6C126",
+
+          "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0xA668b5139350959268A66234125F65CBA05828A1",
+          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0x8a78db659097866B077361d0cfe55deaba6F2618",
+
+          "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "0x2376443f1eE57912CDa7704804e6C5f8e456B521",
+
+          "chainId": "0x53",
+          "currencyName": "MTR",
+          "currencyNetwork": "MTR",
+          "currencySymbol": "MTR",
+          "currencyTransak": "MTR",
+          "currencyDecimals": "18",
+          "rpcUrls": ["https://rpctest.meter.io/"],
+          "blockExplorerUrls": ["https://scan-warringstakes.meter.io"],
+          "exchangeUrl": "",
+          "balanceUrl": "",
+          "fightGas": "0"
         }
       }
     },
