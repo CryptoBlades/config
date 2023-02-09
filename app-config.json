@@ -1,5 +1,5 @@
 {
-  "supportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","SKALE","COINEX"],
+  "supportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","SKALE","COINEX", "METER"],
   "testSupportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","KAVA","SKALE","COINEX", "METER"],
   "environments": {
     "test": {
