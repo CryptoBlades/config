@@ -400,8 +400,8 @@
             "disableDynamicMinting": false
           },
           "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
-          "VUE_APP_NETWORK_ID":"2433657680876851",
-          "VUE_APP_EXPECTED_NETWORK_ID":"2433657680876851",
+          "VUE_APP_NETWORK_ID":"876757986",
+          "VUE_APP_EXPECTED_NETWORK_ID":"876757986",
           "VUE_APP_EXPECTED_NETWORK_NAME":"Skale TestNet",
 
           "VUE_APP_STAKE_TYPES_AVAILABLE":"",
@@ -434,14 +434,14 @@
 
           "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "0x2376443f1eE57912CDa7704804e6C5f8e456B521",
 
-          "chainId": "0x8a5661592d533",
+          "chainId": "0x344243E2",
           "currencyName": "Ether",
           "currencyNetwork": "ETH",
           "currencySymbol": "ETH",
           "currencyTransak": "ETH",
           "currencyDecimals": "18",
-          "rpcUrls": ["https://staging-v2.skalenodes.com/v1/glamorous-grumium"],
-          "blockExplorerUrls": ["https://glamorous-grumium.explorer.staging-v2.skalenodes.com"],
+          "rpcUrls": ["https://staging-v3.skalenodes.com/v1/staging-lost-likely-aludra"],
+          "blockExplorerUrls": ["https://staging-lost-likely-aludra.explorer.staging-v3.skalenodes.com/"],
           "exchangeUrl": "",
           "balanceUrl": "",
           "fightGas": "0"
