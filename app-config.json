@@ -1,6 +1,6 @@
 {
   "supportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","SKALE","COINEX", "METER"],
-  "testSupportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","KAVA","SKALE","COINEX", "METER"],
+  "testSupportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","KAVA","SKALE","COINEX", "METER", "CRONOS"],
   "environments": {
     "test": {
       "chains": {
@@ -549,6 +549,59 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://rpctest.meter.io/"],
           "blockExplorerUrls": ["https://scan-warringstakes.meter.io"],
+          "exchangeUrl": "",
+          "balanceUrl": "",
+          "fightGas": "0"
+        },
+        "CRONOS": {
+          "featureSupport": {
+            "shield": false,
+            "merch": false,
+            "land": false,
+            "disableDynamicMinting": false
+          },
+          "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
+          "VUE_APP_NETWORK_ID":"25",
+          "VUE_APP_EXPECTED_NETWORK_ID":"25",
+          "VUE_APP_EXPECTED_NETWORK_NAME":"Cronos Mainnet",
+
+          "VUE_APP_STAKE_TYPES_AVAILABLE":"",
+          "VUE_APP_STAKE_TYPE_FOR_UNCLAIMED_REWARDS": "",
+          "VUE_APP_SKILL_TOKEN_CONTRACT_ADDRESS": "0x9A9635d9FF1bE7fC75e8b175C9fbCEE4b0c97317",
+          "VUE_APP_SKILL2_TOKEN_CONTRACT_ADDRESS":"0x9A9635d9FF1bE7fC75e8b175C9fbCEE4b0c97317",
+          "VUE_APP_LP_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL2_STAKING_REWARDS_CONTRACT_ADDRESS":"0xeae6c7C62F1D62dBBebd04dA1E0319f742E49e22",
+          "VUE_APP_LP_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+
+          "VUE_APP_CRYPTOBLADES_CONTRACT_ADDRESS":"0x88f3FCF1F26D99F9dC3fc4Ad19093CEf9605F321",
+          "VUE_APP_RAID_CONTRACT_ADDRESS":"0x6A2820C325AcA4be2A515540652c16E8670F6f09",
+          "VUE_APP_MARKET_CONTRACT_ADDRESS":"0xe268EaFe3dc248e976e4cF4B66475C7F9BAcd32B",
+          "VUE_APP_WAX_BRIDGE_CONTRACT_ADDRESS":"0x680f909f0FFF1b2AF3F5f9782b6a8600d73fAAea",
+          "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0x7a972E9dE934e4811509d8c4Ef3BA1cf60467481",
+          "VUE_APP_PVP_CONTRACT_ADDRESS": "0x8E2b70a7BE2B66366f926f28d8877A126143Caf7",
+          "VUE_APP_PVP_CORE_CONTRACT_ADDRESS": "",
+          "VUE_APP_PVP_RANKINGS_CONTRACT_ADDRESS": "",
+          "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0x1697e139edAf4910f084D8e0D8f05F638E783E36",
+          "VUE_APP_STORAGE_CONTRACT_ADDRESS":"0x5bd3D1c17A9B0f56929544cB3A4d6f91F193c623",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0xbc9aa7fcd4Fd6306A9A6943369390A1C8a6da3c7",
+          "VUE_APP_LAUNCHPAD_CONTRACT_ADDRESS": "",
+
+          "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x92D547051C1915FBBEDce2401b1Dfd58941cdcA8",
+          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0x6c04dDA7509F96B1e70915De95a7729c65263f29",
+
+          "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "0x99D510753552698d13D28c3B2042A37Ac6F9E38C",
+
+          "chainId": "0x19",
+          "currencyName": "CRO",
+          "currencyNetwork": "CRO",
+          "currencySymbol": "CRO",
+          "currencyTransak": "CRO",
+          "currencyDecimals": "18",
+          "rpcUrls": ["https://cronos-evm.publicnode.com"],
+          "blockExplorerUrls": ["https://cronoscan.com"],
           "exchangeUrl": "",
           "balanceUrl": "",
           "fightGas": "0"
