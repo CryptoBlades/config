@@ -1,6 +1,6 @@
 {
   "supportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","SKALE","COINEX", "METER"],
-  "testSupportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","KAVA","SKALE","COINEX", "METER", "CRONOS"],
+  "testSupportedChains":["BNB","HECO","OEC","POLYGON","AVAX","AURORA","KAVA","SKALE","COINEX", "METER", "CRONOS", "OPSIDE"],
   "environments": {
     "test": {
       "chains": {
@@ -602,6 +602,59 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://cronos-evm.publicnode.com"],
           "blockExplorerUrls": ["https://cronoscan.com"],
+          "exchangeUrl": "",
+          "balanceUrl": "",
+          "fightGas": "0"
+        },
+        "OPSIDE": {
+          "featureSupport": {
+            "shield": false,
+            "merch": false,
+            "land": false,
+            "disableDynamicMinting": false
+          },
+          "VUE_APP_WAX_BRIDGE_WAX_WALLET_ADDRESS": "snoui.wam",
+          "VUE_APP_NETWORK_ID":"12010",
+          "VUE_APP_EXPECTED_NETWORK_ID":"12010",
+          "VUE_APP_EXPECTED_NETWORK_NAME":"Opside Testnet",
+
+          "VUE_APP_STAKE_TYPES_AVAILABLE":"",
+          "VUE_APP_STAKE_TYPE_FOR_UNCLAIMED_REWARDS": "",
+          "VUE_APP_SKILL_TOKEN_CONTRACT_ADDRESS": "0x4a421526f2515ca3De8450EcAF78967194911162",
+          "VUE_APP_SKILL2_TOKEN_CONTRACT_ADDRESS":"0x4a421526f2515ca3De8450EcAF78967194911162",
+          "VUE_APP_LP_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_TOKEN_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_SKILL2_STAKING_REWARDS_CONTRACT_ADDRESS":"0xbF7e1986331ceDC83Ac183C19Db75aE24Da7F9A2",
+          "VUE_APP_LP_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+          "VUE_APP_LP_2_STAKING_REWARDS_CONTRACT_ADDRESS":"",
+
+          "VUE_APP_CRYPTOBLADES_CONTRACT_ADDRESS":"0xf99898F9A42171AF6C2509c551e2B9D3098CC8C2",
+          "VUE_APP_RAID_CONTRACT_ADDRESS":"0xBe6F559Fec475ea80Cf302743a3FADC4480bC5AA",
+          "VUE_APP_MARKET_CONTRACT_ADDRESS":"0xCbC23E733FC997741cBD5c43eDb821A492882813",
+          "VUE_APP_WAX_BRIDGE_CONTRACT_ADDRESS":"0xCfaF75E5365D9136b78cfB0e4a8989fc1d4f93Df",
+          "VUE_APP_TREASURY_CONTRACT_ADDRESS": "0x9e8d04A6Ce1242A67cbCbB924a4ddfAC9e11B042",
+          "VUE_APP_PVP_CONTRACT_ADDRESS": "0x977e938687fcf09c16C71A3d851bDCa7b1738563",
+          "VUE_APP_PVP_CORE_CONTRACT_ADDRESS": "",
+          "VUE_APP_PVP_RANKINGS_CONTRACT_ADDRESS": "",
+          "VUE_APP_BURNING_MANAGER_CONTRACT_ADDRESS": "0x8ff33399e82Bf3b720DEED121e10Ce38626028bf",
+          "VUE_APP_STORAGE_CONTRACT_ADDRESS":"0x52fd8815f0C28B022b0F80a9349739efe61c741a",
+          "VUE_APP_PARTNER_GIVEAWAYS_CONTRACT_ADDRESS": "0x8a15Fd15F609F1be795789ff320Ac911aa7294B8",
+          "VUE_APP_LAUNCHPAD_CONTRACT_ADDRESS": "",
+
+          "VUE_APP_MERCHANDISE_CONTRACT_ADDRESS": "0x93724CdCEA7f1f75ae16C624dBb015dF9C7E3AE0",
+          "VUE_APP_SIMPLE_QUESTS_CONTRACT_ADDRESS": "0xE3000b1a92CDa14c136597424E53590E0730ca9B",
+
+          "VUE_APP_MULTICALL_CONTRACT_ADDRESS": "",
+
+          "chainId": "0x2EEA",
+          "currencyName": "IDE",
+          "currencyNetwork": "IDE",
+          "currencySymbol": "IDE",
+          "currencyTransak": "IDE",
+          "currencyDecimals": "18",
+          "rpcUrls": ["https://pre-alpha-zkrollup-rpc.opside.network/cb-zkevm"],
+          "blockExplorerUrls": ["https://cb-zkevm.zkevm.opside.info"],
           "exchangeUrl": "",
           "balanceUrl": "",
           "fightGas": "0"
