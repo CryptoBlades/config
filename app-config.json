@@ -1261,7 +1261,7 @@
           "currencyDecimals": "18",
           "rpcUrls": ["https://cronos-evm.publicnode.com"],
           "blockExplorerUrls": ["https://cronoscan.com/"],
-          "exchangeUrl": "",
+          "exchangeUrl": "https://vvs.finance/swap",
           "balanceUrl": "",
           "fightGas": "0.0007"
         }
